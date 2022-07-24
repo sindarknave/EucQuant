@@ -44,7 +44,7 @@ struct EdoQuant : Module {
 
   float getVoltage(float input, int divisions, int levels, float offset) {
     float base = floor(input) + (float)floor(offset * divisions) / divisions;
-    float difference = (float)floor( (float)floor ((input - floor(input)) * divisions) / levels) * levels / divisions;
+    float difference = (float)floor( (float)floor ((input - base) * divisions) / levels) * levels / divisions;
 
     float output = base + difference;
     return output;
