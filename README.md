@@ -1,6 +1,10 @@
 # EucQuant
 
-This houses edoQuant, a quantizer module for VCV rack to generate fun xenharmonic melodies from control voltage.
+## edoQuant
+
+![EdoQuant image](res/EdoQuant.png)
+
+edoQuant is a quantizer module for VCV Rack to generate fun xenharmonic melodies from control voltage.
 
 - *Input* and *Output* receive and send 1V/oct pitch information.
 - *edo* (equal division of the octave) represents a tuning obtained by dividing the octave into n steps. Takes the values 1-24.
