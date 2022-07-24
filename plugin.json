@@ -1,0 +1,23 @@
+{
+  "slug": "EucQuant",
+  "name": "EucQuant",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "EucQuant",
+  "author": "brian",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EucQuant",
+      "name": "EucQuant",
+      "description": "",
+      "tags": ["quantizer"]
+    }
+  ]
+}
