@@ -14,10 +14,12 @@
   "changelogUrl": "",
   "modules": [
     {
-      "slug": "EucQuant",
-      "name": "EucQuant",
-      "description": "",
-      "tags": ["quantizer"]
+      "slug": "EdoQuant",
+      "name": "EdoQuant",
+      "description": "edo sequencer for generative xenharmonic melodies",
+      "tags": [
+        "quantizer"
+      ]
     }
   ]
 }
